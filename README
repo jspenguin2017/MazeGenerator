@@ -1,0 +1,32 @@
+Author: John Beckingham (@Tyler1232321)
+Student ID: <redacted>
+Author: Hai Yang Xu (@jspenguin2017)
+Student ID: <redacted>
+
+
+Description:
+
+Maze Generator is a mini-game about random mazes. It can not only generate and
+solve random mazes but also allow a human player to challenge them. You will be
+greeted by hostile enemies that charge towards you. Be smart and use the
+terrain to your advantage. Further you are from the enemies, safer you are.
+
+
+Quick Start:
+
+After extracting all the files, simply run "python3 start.py" to start the
+server. You can then go to "http://localhost:8000/" using a modern browser and
+you can start playing the game. Note that you may need to click on the canvas
+for Firefox to start accepting keyboard inputs, it is not a problem on
+Chromium. You can install Chromium by running:
+    sudo apt update && sudo apt install chromium-browser
+
+
+Help:
+
+The three buttons on the bottom creates a new maze, solves the current maze,
+and enters player mode respectively. You cannot use the solve functionality
+in player mode and you cannot enter player mode on an already solved maze.
+
+You are the orange box, your goal is to reach the green box while avoiding
+red boxes. Use the arrow keys to move your character.

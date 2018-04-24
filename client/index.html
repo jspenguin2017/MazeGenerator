@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Basic information -->
+    <meta charset="utf-8" />
+    <meta name="author" content="Hai Yang Xu, John Beckingham" />
+    <title>Maze Generator</title>
+    <style>
+        html, body {
+            /* Center the canvas and give inactive area a gray color */
+            background-color: lightgray;
+            height: 100%;
+            margin: 0px;
+            text-align: center;
+            width: 100%;
+        }
+
+        canvas {
+            /* Add some space from top and add a border */
+            border: 3px solid darkblue;
+            margin-top: 50px;
+        }
+
+        button {
+            /* Make buttons bigger */
+            font-size: 1.5em;
+            margin-right: 10px;
+        }
+
+            button:last-of-type {
+                margin-right: 0px;
+            }
+    </style>
+
+    <!-- Load scripts -->
+    <script src="util.js"></script>
+    <script src="engine.js"></script>
+    <script src="input.js"></script>
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <!-- Main canvas -->
+    <canvas height="500" width="700"></canvas>
+    <br />
+
+    <!-- Control buttons -->
+    <button>New Map</button>
+    <button>Solve</button>
+    <button>Enter Player Mode</button>
+</body>
+</html>
